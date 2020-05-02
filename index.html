@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+  <title>Filip Walter</title>
+</head>
+
+<body>
+  <div class="header-container">
+    <header>
+      <a href="#portfolio" class="portfolio-header header-section-active">
+        <p class="header-heading"><b>Filip Walter</b> - freelance graphic designer</p>
+        <p class="header-section-portfolio">portfolio</p>
+        <img src="images/arrow_down.png" alt="" class="nav-arrow nav-arrow-right">
+      </a>
+      <a href="#about" class="about-header">
+        <p class="header-section-about">about me</p>
+        <img src="images/arrow_down.png" alt="" class="nav-arrow nav-arrow-left">
+      </a>
+    </header>
+  </div>
+  <main>
+    <section id="portfolio">
+      <div class="portfolio-gallery">
+      </div>
+    </section>
+    <section id="about" class="about-content">
+      <div class="about-profile">
+        <img src="images/profile.png" alt="Filip Walter profile photo" />
+      </div>
+      <div class="about-info">
+        <div class="about-text">
+          <h1>Filip Walter</h1>
+          <p>Hello, :-) <br />
+            I am a freelance graphic designer, living and working in Prague. If you like my work and need help with
+            something, don´t hesitate to contact me.
+          </p>
+          <p>
+            E-mail: <a href="mailto:info@filipwalter.cz"><span>info@filipwalter.cz</span></a><br />
+            Mobile: <span>+420 737 06 06 20</span><br />
+            Skype: <span>filipwalter</span><br />
+          </p>
+          <a href="filip-walter-cv.pdf" target="_blank" class="cv">
+            Download CV
+          </a>
+        </div>
+        <ul class="references">
+          <li>
+            <a href="http://www.filipwalter.cz/decoded" target="_blank">
+              <img src="images/decoded.jpg" alt="" />
+              <p>Tomáš Walter - Decoded <br />
+                <span>(Flash Website)</span>
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.filipwalter.cz/2011" target="_blank">
+              <img src="images/web_2011.jpg" alt="" />
+              <p>Filip Walter - 2011 <br />
+                <span>(Flash Website)</span>
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.filipwalter.cz/2004" target="_blank">
+              <img src="images/web_2004.jpg" alt="" />
+              <p>Filip Walter - 2004 <br />
+                <span>(Flash Website)</span>
+              </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <div class="modal-window">
+    <div class="modal-bg"></div>
+    <div class="modal-content-bg">
+      <div class="modal-content-container">
+        <div class="modal-image">
+
+        </div>
+        <div class="close"><img src="images/close_cross.png" alt="previous" /></div>
+        <div class="arrow arrow-prev"><img src="images/arrow_prev.png" alt="previous" /></div>
+        <div class="arrow arrow-next"><img src="images/arrow_next.png" alt="next" /></div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/portfolio.js"></script>
+  <script src="js/modal.js"></script>
+</body>
+
+</html>
